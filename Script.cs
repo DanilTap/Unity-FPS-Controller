@@ -23,7 +23,6 @@ public class Moving : MonoBehaviour{
 		Vector3 MoveVector = new Vector3(MoveHor, 0.0f, MoveVer);
 
 		rb.AddForce(MoveVector * PlayerSpeed); 
-
 	}
 
 }
